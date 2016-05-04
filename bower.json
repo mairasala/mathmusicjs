@@ -1,0 +1,8 @@
+{
+  "name": "Package Name",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "underscore": "1.8.3"
+  }
+}

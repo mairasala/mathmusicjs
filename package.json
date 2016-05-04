@@ -1,0 +1,35 @@
+{
+  "name": "mathmusicjs",
+  "version": "1.0.0",
+  "description": "mathematics and music",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-browserify": "^5.0.0",
+    "browserify-shim": "^3.8.10",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "browser": {
+    "jquery": "./vendor/bower_components/jquery/jquery.js",
+    "underscore": "./vendor/bower_components/underscore/underscore.js"
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "underscore": "_"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  }
+}
