@@ -1,0 +1,3 @@
+# mathmusicjs
+random music generator
+
